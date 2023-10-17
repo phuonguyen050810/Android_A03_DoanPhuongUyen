@@ -7,4 +7,9 @@ buildscript {
     repositories {
         mavenCentral()
 }
+    dependencies {
+        classpath("com.google.gms:google-services:4.4.0")
+        // Fix Duplicate class
+//        implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
+    }
 }

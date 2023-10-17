@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1064145680248",
+    "project_id": "tusma-439c2",
+    "storage_bucket": "tusma-439c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064145680248:android:cb43a6220aab6d29613a8d",
+        "android_client_info": {
+          "package_name": "com.example.tusma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsxKB3AlLmJeOBrp2I0I7ATcDfMXs-HxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
