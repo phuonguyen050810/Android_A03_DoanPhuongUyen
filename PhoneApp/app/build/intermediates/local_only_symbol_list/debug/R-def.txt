@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id back
+id call
+id phoneNumber
+id sendSMS
+layout activity_call
+layout activity_main
+layout activity_send
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.PhoneApp
+style Theme.PhoneApp
+xml backup_rules
+xml data_extraction_rules

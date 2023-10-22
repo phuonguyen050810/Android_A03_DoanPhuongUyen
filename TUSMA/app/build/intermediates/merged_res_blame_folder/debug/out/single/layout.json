@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.tusma.app-mergeDebugResources-46:/layout/activity_main.xml",
+        "source": "com.example.tusma.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.tusma.app-mergeDebugResources-46:/layout/activity_register.xml",
+        "source": "com.example.tusma.app-main-49:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.tusma.app-mergeDebugResources-46:/layout/activity_profile.xml",
+        "source": "com.example.tusma.app-main-49:/layout/activity_profile.xml"
+    }
+]

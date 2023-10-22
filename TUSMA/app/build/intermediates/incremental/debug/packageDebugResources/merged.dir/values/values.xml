@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#9b1ac9</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorPrimary">#9b19c9</color>
+    <color name="colorPrimaryDark">#710d95</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="app_name">TUSMA</string>
+    <string name="gcm_defaultSenderId" translatable="false">1064145680248</string>
+    <string name="google_api_key" translatable="false">AIzaSyBsxKB3AlLmJeOBrp2I0I7ATcDfMXs-HxM</string>
+    <string name="google_app_id" translatable="false">1:1064145680248:android:cb43a6220aab6d29613a8d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBsxKB3AlLmJeOBrp2I0I7ATcDfMXs-HxM</string>
+    <string name="google_storage_bucket" translatable="false">tusma-439c2.appspot.com</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="project_id" translatable="false">tusma-439c2</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="welcome">"Welcome !"</string>
+    <style name="Base.Theme.TUSMA" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.TUSMA" parent="Base.Theme.TUSMA"/>
+</resources>
