@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="gcm_defaultSenderId" translatable="false">1064145680248</string>
-    <string name="google_api_key" translatable="false">AIzaSyBsxKB3AlLmJeOBrp2I0I7ATcDfMXs-HxM</string>
-    <string name="google_app_id" translatable="false">1:1064145680248:android:cb43a6220aab6d29613a8d</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBsxKB3AlLmJeOBrp2I0I7ATcDfMXs-HxM</string>
-    <string name="google_storage_bucket" translatable="false">tusma-439c2.appspot.com</string>
-    <string name="project_id" translatable="false">tusma-439c2</string>
-</resources>
