@@ -16,13 +16,19 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".GameActivity2"
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".BackgroundActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GameActivitySize5"
             android:exported="false" />
         <activity
             android:name=".GameActivity"
             android:exported="false" />
         <activity
-            android:name=".LayoutActivity"
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

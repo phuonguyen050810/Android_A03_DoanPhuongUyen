@@ -11,7 +11,7 @@ import kotlin.random.nextInt
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var binding : ActivityMainBinding
+    private lateinit var binding : ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun createOfflineGame(){
+    private fun createOfflineGame(){
         GameData.saveGameModel(
             GameModel(
                 gameStatus = GameStatus.JOINED
@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         startGame()
     }
 
-    fun createOnlineGame(){
+    private fun createOnlineGame(){
         GameData.myID = "X"
         GameData.saveGameModel(
             GameModel(
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         startGame()
     }
 
-    fun joinOnlineGame(){
+    private fun joinOnlineGame(){
         var gameId = binding.gameIdInput.text.toString()
         if (gameId.isEmpty()){
             binding.gameIdInput.setError("Please enter game ID")
@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
             }
     }
 
-    fun startGame(){
+    private fun startGame(){
         startActivity(Intent(this, GameActivity::class.java))
     }
 }

@@ -8,7 +8,7 @@ import com.example.tictactoeonline.databinding.ActivityGameBinding
 
 class GameActivity : AppCompatActivity(), View.OnClickListener{
 
-    lateinit var binding: ActivityGameBinding
+    private lateinit var binding: ActivityGameBinding
 
     private var gameModel : GameModel? = null
 
@@ -39,7 +39,7 @@ class GameActivity : AppCompatActivity(), View.OnClickListener{
         }
     }
 
-    fun setUI(){
+    private fun setUI(){
         gameModel?.apply {
             binding.btn0.text = filledPos[0]
             binding.btn1.text = filledPos[1]
@@ -82,7 +82,7 @@ class GameActivity : AppCompatActivity(), View.OnClickListener{
         }
     }
 
-    fun startGame(){
+    private fun startGame(){
         gameModel?.apply {
             updateGameData(
                 GameModel(
@@ -94,11 +94,11 @@ class GameActivity : AppCompatActivity(), View.OnClickListener{
 
     }
 
-    fun updateGameData(model: GameModel){
+    private fun updateGameData(model: GameModel){
         GameData.saveGameModel(model)
     }
 
-    fun checkForWinner(){
+    private fun checkForWinner(){
         val winningPos = arrayOf(
             intArrayOf(0,1,2),
             intArrayOf(3,4,5),
